@@ -1,0 +1,12 @@
+.chat-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.chat-header h2 {
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}

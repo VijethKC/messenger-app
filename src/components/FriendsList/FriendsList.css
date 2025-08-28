@@ -1,0 +1,33 @@
+.sidebar {
+  width: 300px;
+  background-color: white;
+  border-right: solid 0.5px #e9ecef;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  margin: 0;
+  padding: 20px;
+  background-color: cornflowerblue;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.friend-item {
+  padding: 12px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.friend-item:hover {
+  background-color: lightblue;
+}
+
+.friend-item.selected {
+  background-color: darkcyan;
+}
+
+.friend-item .name {
+  font-weight: 500;
+}
